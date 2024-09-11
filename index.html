@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decentralized Voting System</title>
+    <script src="web3.min.js"></script>
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <h1>Decentralized Voting System</h1>
+    <h2>Total Votes: <span id="totalVotes">0</span></h2>
+
+    <div>
+        <h3>Candidates:</h3>
+        <ul id="candidateList"></ul>
+    </div>
+
+    <div>
+        <h3>Vote for a Candidate:</h3>
+        <select id="candidateSelect"></select>
+        <button onclick="vote()">Vote</button>
+    </div>
+</body>
+</html>

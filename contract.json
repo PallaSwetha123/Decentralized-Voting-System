@@ -1,0 +1,6 @@
+{
+    "abi": [
+        // Your contract ABI here
+    ],
+    "address": "YOUR_CONTRACT_ADDRESS"
+}
